@@ -20,17 +20,22 @@ This project leverages the standard Python data science ecosystem to analyze and
 * **Data Visualization:** `Matplotlib`, `Seaborn`
 * **Environment:** `Jupyter Notebook`
 
-## 🗂️ Repository Structure
-├── data/               # Uber masked dataset
-├── docs/               # Presentation of the case study
-├── notebooks/          # Jupyter notebook containing analysis
-└── README.md           # Project documentation
+## 📂 Repository Structure
+
+```text
+├── data/               # Uber masked dataset (CSV)
+├── docs/               # Presentation and case study documentation
+├── notebooks/          # Jupyter Notebook containing the end-to-end analysis
+└── README.md           # Project overview and key findings
+```
 
 ## 📊 Dataset
-- **Source:** 
+ **Source:**  
+ 
 The dataset used for this analysis was provided as part of a Business Analytics Case Study. It contains masked real-world trip request data from Uber, focusing on two primary locations: the City and the Airport.
 
-- **Schema:**  
+**Schema:**   
+
 | Attribute | Description | Data Type |
 | :--- | :--- | :--- |
 | **Request id** | A unique identifier for each ride request. | Integer |
